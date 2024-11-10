@@ -1,4 +1,5 @@
 @import './css/nftbookers.css';
+@import './css/token-distribution.css';
 * {
     /* border: 1px solid #FFFFFF; */
     padding: 0;
@@ -30,11 +31,47 @@
     font-weight: 700;
     line-height: 40px;
 }
+.bold-48 {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.bold-linear {
+    background: linear-gradient(
+        95deg,
+        #99644F 0%,
+        #A57F62 32%,
+        #DBC0B0 71%,
+        #E8E1DA 100%
+      );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 .regular-16 {
     font-size: 16px;
     line-height: 22px;
     font-weight: 500px;
     font-family: "Lato", sans-serif;    
+}
+.regular-14 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500px;
+    font-family: "Lato", sans-serif;    
+}
+.bold-16 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700px;
+    font-family: "Lato", sans-serif;    
+}
+.bg-linear {
+    background-color: rgba(255, 255, 255, 0.01);
+    box-shadow: 
+    inset 0px 188px 100px rgba(96, 68, 144, 0.3),
+    inset 0px 1px rgba(0, 0, 0, .2);
+    border-radius: 20px;
 }
 html {
     width: 1440px;
@@ -44,3 +81,7 @@ html {
 section {
     border: 1px solid;
 }
+
+/* #token-distribution * {
+    border: 1px solid;
+} */
