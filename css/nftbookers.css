@@ -1,0 +1,156 @@
+.nftbooker {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0px 50px 100px;
+    height: 900px;
+}
+.sub-nftbooker {
+    display: flex;
+    width: min-content;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.nftbooker h2 {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+    background: linear-gradient(
+        95deg,
+        #99644F 0%,
+        #A57F62 32%,
+        #DBC0B0 71%,
+        #E8E1DA 100%
+      );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-style: normal;
+}
+.nftbooker-p {
+    width: 542px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500px;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    vertical-align: top;
+    /* font-size: ; */
+}
+.bowl-button {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(
+        to right,
+        #EF32D9 0%,
+        #89FFFD 100%
+    );
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 16px;
+    border-radius: 8px;
+    width: fit-content;
+}
+.button-display {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 42.5px;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+}
+.btn-outline {
+    border-radius: 8px;
+    border: 1px solid var(--brownie);
+    background-color: #2F80ED;
+}
+/* @media screen and (min-resolution: 142dpi) {
+.btn-outline {
+    border: 2px solid var(--brownie);
+}
+} */
+
+
+/* .button-display {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 16px;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+} */
+
+/* .btn-outline {
+    /* position: relative;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background: var(--bg);
+    background-clip: padding-box;
+    padding: 10px;
+    just to show box-shadow still works fine */
+    /* border: 10px solid; */
+    /* border-image-source: linear-gradient(90deg, #EF32D9 0%, #89FFFD 100%); */
+    /* border-image-source: repeating-linear-gradient(45deg, transparent, #4d9f0c 20px); */
+    /* border-image-source: linear-gradient(to bottom left, lightblue, #000000); */
+
+
+/* .btn-outline::after {
+    position: absolute;
+    top: -2px; bottom: -1px;
+    left: -2px; right: -1px;
+    background: var(--bowl);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+} */
+.bowl-button img {
+    padding-left: 5px;
+    padding-right: 5px;
+    transform: rotate(-45deg);
+}
+.character {
+    flex-direction: row;
+    display: flex;
+    gap: 24px;
+    width: min-content;
+}
+.cha-col1 {
+    flex-direction: column;
+    display: flex;
+    gap: 24px;
+}
+.cha-spec {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px 0px;
+    background-color: rgba(255, 255, 255, 0.01);
+    box-shadow: 
+    inset 0px 188px 100px rgba(96, 68, 144, 0.3),
+    inset 0px 1px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+}
+.cha-spec h3 {
+    padding-left: 24px;
+    width: min-content;
+    color: var(--grey);
+    z-index: -1;
+
+}
+.cha-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0px 24px;
+    width: min-content;
+    border-radius: 20px;
+    z-index: -1;
+}
+.cha-content-p {
+    width: 348px;
+    color: var(--grey);
+}
