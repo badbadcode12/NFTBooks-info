@@ -1,0 +1,46 @@
+.strategic-partners-draw {
+    height: 900px;
+    display: relative;
+}
+.strategic-partners {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 29px 102px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.strategic-partners-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+.strategic-partners-title p {
+    color: var(--grey);
+}
+.strategic-partners-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.strategic-partners-list-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.strategic-partners-list-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.strategic-partner {
+    width: 300px;
+    height: 163px;
+    /* justify-content: center;
+    align-items: center; */
+}

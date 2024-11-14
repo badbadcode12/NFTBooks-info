@@ -70,3 +70,6 @@
     text-align: left;
     color: var(--brownie);
 }
+.token-distribution-details-item p,.token-distribution-details-title h3 {
+    z-index: -1;
+}
