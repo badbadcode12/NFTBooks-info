@@ -14,6 +14,7 @@
     --brownie: #E1D5CB;
     --bg: #000428;
     --grey: #E1D5CB;
+    --grey3: #828282;
     --bowl: linear-gradient(
         to right,
         #EF32D9 0%,
@@ -81,6 +82,57 @@ html {
 }
 section {
     border: 1px solid;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px 100px;
+}
+.contact-us-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-us-form-text {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.contact-us-form-text fieldset {
+    display: flex;
+    flex-direction: column;
+    border: hidden;
+    gap: 24px;
+}
+.contact-us-form-text fieldset label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.contact-us-form-text fieldset input {
+    width: 600px;
+    padding: 16px 24px;
+    border: hidden;
+}
+.contact-us-form-text fieldset input::placeholder {
+    color: var(--grey3);
+}
+.contact-us-form-text fieldset textarea {
+    width: 600px;
+    height: 266px;
+    padding: 16px 24px;
+    border: hidden;
+}
+.contact-us-form-text fieldset textarea::placeholder {
+    color: var(--grey3);
 }
 
 /* #token-distribution * {
