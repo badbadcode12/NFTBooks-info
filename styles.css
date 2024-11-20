@@ -107,6 +107,7 @@ section {
 .first-homepage {
     height: 900px;
     /* top: -108px; */
+    top: calc((900 - 100vh) /2);
     position: relative;
 }
 
