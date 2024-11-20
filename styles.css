@@ -178,6 +178,7 @@ section {
         inset 0px 98px 100px rgba(202, 172, 255, .3),
         inset 0px 1px 0px rgba(154, 146, 2, .3),
         inset 0px 39px 56px rgba(0, 0, 0, .2) ;
+    -webkit-backdrop-filter: blur(60px)!important;
     backdrop-filter: blur(60px) !important;
 
 }
