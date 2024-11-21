@@ -13,11 +13,8 @@ function scalePage() {
 
     if (firstHomepage) {
       if (scaleFactor !== 1) {
-        const vipRatio = 1.883;
-        const currentRatio = viewportWidth/viewportHeight;
-        const vvip = currentRatio / vipRatio;
-        const topValue = 136*vvip*vvip*vvip;
-        firstHomepage.style.top = `-${topValue}px`; // Đảm bảo thêm đơn vị "px"
+        const scaleDiv = 900 - (viewportHeight/scaleFactor);
+        firstHomepage.style.top = `-${scaleDiv}px`; // Đảm bảo thêm đơn vị "px"
       }
         //   } else {
     //     // Xử lý trường hợp scaleFactor = 1 (ví dụ: đặt lại về giá trị mặc định)
